@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'maxiwers-portfolio',
-  preset: '../../jest.preset.js',
+  displayName: 'main-app',
+  preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/maxiwers-portfolio',
+  coverageDirectory: '../coverage/main-app',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

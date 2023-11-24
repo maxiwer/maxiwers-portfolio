@@ -1,26 +1,26 @@
 {
-  "name": "maxiwers-portfolio",
+  "name": "secret-member",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "maxiwers-portfolio",
-  "sourceRoot": "apps/maxiwers-portfolio/src",
+  "sourceRoot": "apps/secret-member/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/maxiwers-portfolio",
-        "index": "apps/maxiwers-portfolio/src/index.html",
-        "main": "apps/maxiwers-portfolio/src/main.ts",
+        "outputPath": "dist/apps/secret-member",
+        "index": "apps/secret-member/src/index.html",
+        "main": "apps/secret-member/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/maxiwers-portfolio/tsconfig.app.json",
+        "tsConfig": "apps/secret-member/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "apps/maxiwers-portfolio/src/favicon.ico",
-          "apps/maxiwers-portfolio/src/assets"
+          "apps/secret-member/src/favicon.ico",
+          "apps/secret-member/src/assets"
         ],
-        "styles": ["apps/maxiwers-portfolio/src/styles.scss"],
+        "styles": ["apps/secret-member/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -54,10 +54,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "maxiwers-portfolio:build:production"
+          "buildTarget": "secret-member:build:production"
         },
         "development": {
-          "buildTarget": "maxiwers-portfolio:build:development"
+          "buildTarget": "secret-member:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -65,7 +65,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "maxiwers-portfolio:build"
+        "buildTarget": "secret-member:build"
       }
     },
     "lint": {
@@ -73,8 +73,8 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "apps/maxiwers-portfolio/**/*.ts",
-          "apps/maxiwers-portfolio/**/*.html"
+          "apps/secret-member/**/*.ts",
+          "apps/secret-member/**/*.html"
         ]
       }
     },
@@ -82,7 +82,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/maxiwers-portfolio/jest.config.ts"
+        "jestConfig": "apps/secret-member/jest.config.ts"
       }
     }
   }
