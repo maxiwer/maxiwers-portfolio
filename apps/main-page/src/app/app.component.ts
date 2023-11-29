@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import {AppComponent} from "../../../secret-member/src/app/app.component";
+import {SecretMemberRootComponent} from "../../../secret-member/src/app/secret-member-root.component";
 
 @Component({
   standalone: true,

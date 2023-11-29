@@ -6,9 +6,9 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   standalone: true,
   imports: [NxWelcomeComponent, RouterModule],
   selector: 'maxiwers-portfolio-lorem',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  templateUrl: './secret-member-root.component.html',
+  styleUrls: ['./secret-member-root.component.scss'],
 })
-export class AppComponent {
+export class SecretMemberRootComponent {
   title = 'secret-member';
 }

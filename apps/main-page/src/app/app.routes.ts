@@ -1,9 +1,9 @@
 import { Route } from '@angular/router';
-import {AppComponent} from "/apps/secret-member/src/app/app.component";
+import {SecretMemberRootComponent} from "../../../secret-member/src/app/secret-member-root.component";
 
 export const appRoutes: Route[] = [
   {
     path: 'secret-member',
-    component: AppComponent
+    component: SecretMemberRootComponent
   }
 ];
