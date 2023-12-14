@@ -1,0 +1,36 @@
+html {
+  font-size: 12px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bg-main {
+  background-color: var(--main-bg);
+}
+
+.center-margin {
+  margin: 0 auto;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

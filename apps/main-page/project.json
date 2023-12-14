@@ -20,7 +20,10 @@
           "apps/main-page/src/favicon.ico",
           "apps/main-page/src/assets"
         ],
-        "styles": ["apps/main-page/src/styles.scss"],
+        "styles": [
+          "apps/main-page/src/core/css/reset-css.css",
+          "apps/main-page/src/core/css/general-styles.css",
+          "apps/main-page/src/core/css/colors.css"],
         "scripts": []
       },
       "configurations": {

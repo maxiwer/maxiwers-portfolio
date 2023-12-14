@@ -1,11 +1,10 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-import {SecretMemberRootComponent} from "../../../secret-member/src/app/secret-member-root.component";
+import {Component} from '@angular/core';
+import {RouterModule} from '@angular/router';
+import {CoreModule} from "./core/core.module";
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, AppComponent],
+  imports: [RouterModule, CoreModule],
   selector: 'maxiwers-portfolio-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
