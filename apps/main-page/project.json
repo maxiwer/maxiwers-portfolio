@@ -23,7 +23,9 @@
         "styles": [
           "apps/main-page/src/core/css/reset-css.css",
           "apps/main-page/src/core/css/general-styles.css",
-          "apps/main-page/src/core/css/colors.css"],
+          "apps/main-page/src/core/css/colors.css",
+          "apps/main-page/src/core/css/font-sizes.css"
+        ],
         "scripts": []
       },
       "configurations": {

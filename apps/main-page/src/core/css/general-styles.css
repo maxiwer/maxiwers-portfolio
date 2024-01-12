@@ -6,10 +6,6 @@ html {
   height: 100vh;
 }
 
-.fs-1 {
-  font-size: 1rem;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -33,4 +29,8 @@ html {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.hoverable {
+  cursor: pointer;
 }
